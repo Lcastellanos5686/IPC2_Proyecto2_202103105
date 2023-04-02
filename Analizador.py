@@ -31,7 +31,7 @@ listaElementosCompuesto.append('Li')
 
 print('############################################')
 
-def CrearCompuesto(listaMaquina : ListaDoble.ListaDoble , listaCompuesto : ListaDoble.ListaDoble):
+def TiempoParaCrearCompuesto(listaMaquina : ListaDoble.ListaDoble , listaCompuesto : ListaDoble.ListaDoble):
     ElementoBuscado = listaCompuesto.head
     pinActual = listaMaquina.head
     tiempoTranscurrido = 0
@@ -145,4 +145,4 @@ def CrearCompuesto(listaMaquina : ListaDoble.ListaDoble , listaCompuesto : Lista
 
 
 
-CrearCompuesto(listaPines,listaElementosCompuesto)
+TiempoParaCrearCompuesto(listaPines,listaElementosCompuesto)

@@ -6,6 +6,7 @@ class Pin:
         self.numeroPin=numeroPin
         self.listaElementos = ListaDoble.ListaDoble()
         self.enElemento = None
+        self.bloqueado = False
     
     def anadirElemento(self, Elemento):
         self.listaElementos.append(Elemento)
@@ -37,6 +38,9 @@ class Pin:
             return self.movimientos_desde_inicio(Elemento2)
         else:
             return self.movimientos_entre_dos(self.enElemento, Elemento2)
+    
+    def restaurar_bloqueo(self):
+        self.bloqueado = False
 
 
 
