@@ -52,10 +52,41 @@
                     </elementos> 
                 </pin>
         </Maquina>
+        <Maquina>
+            <nombre>Maquina 12</nombre>
+            <numeroPines>2</numeroPines> 
+            <numeroElementos>6</numeroElementos> 
+                <pin> 
+                    <elementos> 
+                        <elemento>Li</elemento>
+                        <elemento>He</elemento>
+                        <elemento>N</elemento>
+                        <elemento>C</elemento>
+                    </elementos> 
+                </pin>
+                <pin> 
+                    <elementos> 
+                        <elemento>C</elemento>
+                        <elemento>Be</elemento>
+                        <elemento>H</elemento>
+                        <elemento>N</elemento>
+                    </elementos> 
+                </pin>
+        </Maquina>
     </listaMaquinas> 
     <listaCompuestos> 
             <compuesto> 
                 <nombre>Compuesto 1</nombre> 
+                <elementos> 
+                    <elemento>Li</elemento>
+                    <elemento>Li</elemento>
+                    <elemento>Be</elemento>
+                    <elemento>He</elemento>
+                    <elemento>Be</elemento>
+                    <elemento>Li</elemento>
+                </elementos> 
+            </compuesto><compuesto> 
+                <nombre>Compuesto 2</nombre> 
                 <elementos> 
                     <elemento>Li</elemento>
                     <elemento>Li</elemento>

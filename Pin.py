@@ -7,6 +7,8 @@ class Pin:
         self.listaElementos = ListaDoble.ListaDoble()
         self.enElemento = None
         self.bloqueado = False
+        self.listaAcciones = ListaDoble.ListaDoble()
+        self.listaAccionesXML = ListaDoble.ListaDoble()
     
     def anadirElemento(self, Elemento):
         self.listaElementos.append(Elemento)
@@ -41,6 +43,36 @@ class Pin:
     
     def restaurar_bloqueo(self):
         self.bloqueado = False
+
+    def generarTablaAcciones(self,tiempo):
+        TextoTabla = "<tr>"
+        TextoTabla += '<td>Pin ' + str(self.numeroPin) + "</td>"
+        f = self.listaAcciones.head
+        while f:
+            TextoTabla += f.data
+            tiempo -= 1
+            f= f.next
+        
+        if tiempo > 0:
+            for i in range(tiempo):
+                TextoTabla += "<td>Esperar</td>"
+            TextoTabla += "</tr>"
+            return TextoTabla
+        TextoTabla += "</tr>"
+        return TextoTabla
+
+    def completarXML(self,tiempo):
+        a = self.listaAccionesXML.head
+
+        while a:
+            tiempo -= 1
+            a=a.next
+
+        if tiempo > 0:
+            for i in range(tiempo):
+                self.listaAccionesXML.append('Esperar')
+        
+
 
 
 

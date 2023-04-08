@@ -1,0 +1,94 @@
+            <tiempoOptimo>7</tiempoOptimo>
+            <instrucciones>
+                <tiempo>
+                <numeroSegundo>1</numeroSegundo>
+                    <acciones>
+                        <accionPin>
+                            <numeroPin>1</numeroPin>
+                            <accion>Mover Adelante</accion>
+                        </accionPin>
+                        <accionPin>
+                            <numeroPin>2</numeroPin>
+                            <accion>Mover Adelante</accion>
+                        </accionPin>
+                    </acciones>
+                </tiempo>
+                <tiempo>
+                <numeroSegundo>2</numeroSegundo>
+                    <acciones>
+                        <accionPin>
+                            <numeroPin>1</numeroPin>
+                            <accion>Fusionar Li</accion>
+                        </accionPin>
+                        <accionPin>
+                            <numeroPin>2</numeroPin>
+                            <accion>Mover Adelante</accion>
+                        </accionPin>
+                    </acciones>
+                </tiempo>
+                <tiempo>
+                <numeroSegundo>3</numeroSegundo>
+                    <acciones>
+                        <accionPin>
+                            <numeroPin>1</numeroPin>
+                            <accion>Fusionar Li</accion>
+                        </accionPin>
+                        <accionPin>
+                            <numeroPin>2</numeroPin>
+                            <accion>Esperar</accion>
+                        </accionPin>
+                    </acciones>
+                </tiempo>
+                <tiempo>
+                <numeroSegundo>4</numeroSegundo>
+                    <acciones>
+                        <accionPin>
+                            <numeroPin>1</numeroPin>
+                            <accion>Mover Adelante</accion>
+                        </accionPin>
+                        <accionPin>
+                            <numeroPin>2</numeroPin>
+                            <accion>Fusionar Be</accion>
+                        </accionPin>
+                    </acciones>
+                </tiempo>
+                <tiempo>
+                <numeroSegundo>5</numeroSegundo>
+                    <acciones>
+                        <accionPin>
+                            <numeroPin>1</numeroPin>
+                            <accion>Fusionar He</accion>
+                        </accionPin>
+                        <accionPin>
+                            <numeroPin>2</numeroPin>
+                            <accion>Esperar</accion>
+                        </accionPin>
+                    </acciones>
+                </tiempo>
+                <tiempo>
+                <numeroSegundo>6</numeroSegundo>
+                    <acciones>
+                        <accionPin>
+                            <numeroPin>1</numeroPin>
+                            <accion>Mover Atras</accion>
+                        </accionPin>
+                        <accionPin>
+                            <numeroPin>2</numeroPin>
+                            <accion>Fusionar Be</accion>
+                        </accionPin>
+                    </acciones>
+                </tiempo>
+                <tiempo>
+                <numeroSegundo>7</numeroSegundo>
+                    <acciones>
+                        <accionPin>
+                            <numeroPin>1</numeroPin>
+                            <accion>Fusionar Li</accion>
+                        </accionPin>
+                        <accionPin>
+                            <numeroPin>2</numeroPin>
+                            <accion>Esperar</accion>
+                        </accionPin>
+                    </acciones>
+                </tiempo>
+            </instrucciones>

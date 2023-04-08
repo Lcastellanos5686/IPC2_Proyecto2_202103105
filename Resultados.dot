@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<RESPUESTA>
+   <listaCompuestos>
+       <compuesto>
+       <nombreMaquina>Maquina 1</nombreMaquina>digraph {
+        node [ shape=none fontname=Helvetica ]
+        n1 [ label = <
+        <table>
+        <tr><td></td><td> Segundo 1</td><td> Segundo 2</td><td> Segundo 3</td><td> Segundo 4</td><td> Segundo 5</td><td> Segundo 6</td><td> Segundo 7</td></tr>
+<tr><td>Pin 1</td><td>Mover Adelante</td><td>Fusionar Li</td><td>Fusionar Li</td><td>Mover Adelante</td><td>Fusionar He</td><td>Mover Atras</td><td>Fusionar Li</td></tr>
+<tr><td>Pin 2</td><td>Mover Adelante</td><td>Mover Adelante</td><td>Esperar</td><td>Fusionar Be</td><td>Esperar</td><td>Fusionar Be</td><td>Esperar</td></tr>
+</table>
+                    > ]}       <nombreMaquina>Maquina 12</nombreMaquina>digraph {
+        node [ shape=none fontname=Helvetica ]
+        n1 [ label = <
+        <table>
+        <tr><td></td><td> Segundo 1</td><td> Segundo 2</td><td> Segundo 3</td><td> Segundo 4</td><td> Segundo 5</td><td> Segundo 6</td><td> Segundo 7</td></tr>
+<tr><td>Pin 1</td><td>Mover Adelante</td><td>Fusionar Li</td><td>Fusionar Li</td><td>Mover Adelante</td><td>Fusionar He</td><td>Mover Atras</td><td>Fusionar Li</td></tr>
+<tr><td>Pin 2</td><td>Mover Adelante</td><td>Mover Adelante</td><td>Esperar</td><td>Fusionar Be</td><td>Esperar</td><td>Fusionar Be</td><td>Esperar</td></tr>
+</table>
+                    > ]}       </compuesto>
+       <compuesto>
+       <nombreMaquina>Maquina 1</nombreMaquina>digraph {
+        node [ shape=none fontname=Helvetica ]
+        n1 [ label = <
+        <table>
+        <tr><td></td><td> Segundo 1</td><td> Segundo 2</td><td> Segundo 3</td><td> Segundo 4</td><td> Segundo 5</td><td> Segundo 6</td><td> Segundo 7</td></tr>
+<tr><td>Pin 1</td><td>Mover Adelante</td><td>Fusionar Li</td><td>Fusionar Li</td><td>Mover Adelante</td><td>Fusionar He</td><td>Mover Atras</td><td>Fusionar Li</td></tr>
+<tr><td>Pin 2</td><td>Mover Adelante</td><td>Mover Adelante</td><td>Esperar</td><td>Fusionar Be</td><td>Esperar</td><td>Fusionar Be</td><td>Esperar</td></tr>
+</table>
+                    > ]}       <nombreMaquina>Maquina 12</nombreMaquina>digraph {
+        node [ shape=none fontname=Helvetica ]
+        n1 [ label = <
+        <table>
+        <tr><td></td><td> Segundo 1</td><td> Segundo 2</td><td> Segundo 3</td><td> Segundo 4</td><td> Segundo 5</td><td> Segundo 6</td><td> Segundo 7</td></tr>
+<tr><td>Pin 1</td><td>Mover Adelante</td><td>Fusionar Li</td><td>Fusionar Li</td><td>Mover Adelante</td><td>Fusionar He</td><td>Mover Atras</td><td>Fusionar Li</td></tr>
+<tr><td>Pin 2</td><td>Mover Adelante</td><td>Mover Adelante</td><td>Esperar</td><td>Fusionar Be</td><td>Esperar</td><td>Fusionar Be</td><td>Esperar</td></tr>
+</table>
+                    > ]}       </compuesto>
+   </listaCompuestos>
+</RESPUESTA>
